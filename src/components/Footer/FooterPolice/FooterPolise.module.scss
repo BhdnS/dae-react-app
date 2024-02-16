@@ -1,0 +1,11 @@
+.footerPolice {
+  display: flex;
+  color: #b45f4d;
+  font-size: 1.4rem;
+  line-height: 160%;
+  gap: 5px;
+
+  &Title {
+    cursor: pointer;
+  }
+}

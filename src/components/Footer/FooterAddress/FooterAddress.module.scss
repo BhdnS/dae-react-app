@@ -1,0 +1,15 @@
+.footerAddress {
+  color: #c17c6c;
+  font-size: 1.4rem;
+  line-height: 160%;
+
+  &Title {
+    padding-bottom: 19px;
+  }
+}
+
+@media (max-width: 770px) {
+  .footerAddress {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,60 @@
+.box {
+
+  &Nav {
+    display: flex;
+    gap: 22px;
+    max-width: 424px;
+    width: 100%;
+  }
+
+  &None {
+    display: flex;
+  }
+
+  &Link {
+    color: #b4604d;
+    font-size: 1.8rem;
+    line-height: 160%;
+    text-transform: capitalize;
+  }
+
+  &Close {
+    display: none;
+  }
+}
+
+@media (max-width: 770px) {
+  .box {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 50px;
+    position: absolute;
+    background-color: #b45f4d;
+    z-index: 10;
+    left: -100%;
+    top: 0;
+    bottom: 0;
+    max-width: 320px;
+    width: 100%;
+    transition: .3s all ease-in-out;
+
+    &Link {
+      color: white;
+    }
+
+    &Close {
+      display: block;
+      margin-left: 150px;
+    }
+
+    &Nav {
+      padding-top: 50%;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &Open {
+      left: 0;
+    }
+  }
+}

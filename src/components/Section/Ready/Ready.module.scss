@@ -1,0 +1,31 @@
+.ready {
+  background-color: #a9ae8d;
+  padding: 69px 0 69px 70px;
+
+  &Title {
+    color: #f6f4ec;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    line-height: 160%;
+  }
+
+  &SubTitle {
+    color: #f6f4ec;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    line-height: 160%;
+    font-size: 3.3rem;
+  }
+
+  &Link {
+    color: #f6f4ec;
+    font-size: 16px;
+    line-height: 170%;
+  }
+}
+
+@media (max-width: 770px) {
+  .ready {
+    padding: 69px 0 69px 0;
+  }
+}

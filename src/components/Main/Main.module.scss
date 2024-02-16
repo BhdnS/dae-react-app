@@ -1,0 +1,16 @@
+.main {
+  position: relative;
+  &Img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  &Btn {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+}

@@ -1,0 +1,88 @@
+const followData = [
+  {
+    img: 'src/assets/images/follow/one.png',
+    alt: 'logo',
+    imgLogo: 'src/assets/images/follow/dae-logo.png',
+    altLogo: 'logo',
+    id: 1,
+  },
+  {
+    img: 'src/assets/images/follow/two.png',
+    alt: 'logo',
+    imgLogo: 'src/assets/images/follow/dae-logo.png',
+    altLogo: 'logo',
+    id: 2,
+  },
+  {
+    img: 'src/assets/images/follow/three.png',
+    alt: 'logo',
+    imgLogo: 'src/assets/images/follow/dae-logo.png',
+    altLogo: 'logo',
+    id: 3,
+  },
+  {
+    img: 'src/assets/images/follow/four.png',
+    alt: 'logo',
+    imgLogo: 'src/assets/images/follow/dae-logo.png',
+    altLogo: 'logo',
+    id: 4,
+  },
+  {
+    img: 'src/assets/images/follow/five.png',
+    alt: 'logo',
+    imgLogo: 'src/assets/images/follow/dae-logo.png',
+    altLogo: 'logo',
+    id: 5,
+  },
+  {
+    img: 'src/assets/images/follow/six.png',
+    alt: 'logo',
+    imgLogo: 'src/assets/images/follow/dae-logo.png',
+    altLogo: 'logo',
+    id: 6,
+  },
+  {
+    img: 'src/assets/images/follow/one.png',
+    alt: 'logo',
+    imgLogo: 'src/assets/images/follow/dae-logo.png',
+    altLogo: 'logo',
+    id: 7,
+  },
+  {
+    img: 'src/assets/images/follow/two.png',
+    alt: 'logo',
+    imgLogo: 'src/assets/images/follow/dae-logo.png',
+    altLogo: 'logo',
+    id: 8,
+  },
+  {
+    img: 'src/assets/images/follow/three.png',
+    alt: 'logo',
+    imgLogo: 'src/assets/images/follow/dae-logo.png',
+    altLogo: 'logo',
+    id: 9,
+  },
+  {
+    img: 'src/assets/images/follow/four.png',
+    alt: 'logo',
+    imgLogo: 'src/assets/images/follow/dae-logo.png',
+    altLogo: 'logo',
+    id: 10,
+  },
+  {
+    img: 'src/assets/images/follow/five.png',
+    alt: 'logo',
+    imgLogo: 'src/assets/images/follow/dae-logo.png',
+    altLogo: 'logo',
+    id: 11,
+  },
+  {
+    img: 'src/assets/images/follow/six.png',
+    alt: 'logo',
+    imgLogo: 'src/assets/images/follow/dae-logo.png',
+    altLogo: 'logo',
+    id: 12,
+  },
+]
+
+export default followData

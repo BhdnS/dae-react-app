@@ -1,0 +1,48 @@
+.meet {
+  background-color: #f1d3b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 61px 0 61px 0;
+
+  &Img {
+    max-width: 632px;
+    width: 100%;
+  }
+
+  &Box {
+    margin-left: -50px;
+    margin-top: 50px;
+    max-width: 518px;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 50px;
+  }
+
+  &Title {
+    color: #b45f4d;
+    font-size: 3rem;
+    line-height: 192%;
+    padding-bottom: 22px;
+  }
+
+  &Text {
+    color: #b45f4d;
+    font-size: 1.9rem;
+    line-height: 160%;
+    padding-bottom: 41px;
+  }
+
+  &Btn {
+    color: #b45f4d;
+    font-size: 1.6rem;
+    line-height: 160%;
+  }
+}
+
+
+@media (max-width: 770px) {
+  .meet {
+    flex-direction: column;
+  }
+}

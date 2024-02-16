@@ -1,0 +1,25 @@
+.info {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  max-width: 313px;
+  width: 100%;
+
+  &Text {
+    color: #b45f4d;
+    font-size: 1.4rem;
+    line-height: 160%;
+  }
+
+  &BoxIcon {
+    display: flex;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 770px) {
+  .info {
+    justify-content: flex-start;
+    max-width: 0;
+  }
+}

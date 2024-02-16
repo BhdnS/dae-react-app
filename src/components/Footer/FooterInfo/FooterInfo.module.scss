@@ -1,0 +1,18 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  &List {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    cursor: url('public/images/cursor/circle-hover.svg'), default;
+  }
+
+  &Text {
+    color: #b45f4d;
+    font-size: 1.4rem;
+    line-height: 140%;
+  }
+}

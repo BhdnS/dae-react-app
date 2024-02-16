@@ -1,0 +1,20 @@
+.cardFollow {
+  display: flex;
+  justify-content: center;
+  &:hover {
+    cursor: url('public/images/cursor/circle-hover.svg'), default;
+  }
+
+  &Img {
+    max-width: 230px;
+    width: 100%;
+  }
+
+  &Logo {
+    max-width: 46px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+  }
+}

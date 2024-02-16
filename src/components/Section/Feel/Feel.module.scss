@@ -1,0 +1,48 @@
+.feel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0 50px 0;
+
+  &Img {
+    max-width: 1220px;
+    width: 100%;
+  }
+
+  &Box {
+    background-color: #df9b7a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1220px;
+    width: 100%;
+    padding: 30px;
+  }
+
+  &Title {
+    color: #f6f4ec;
+    font-size: 2rem;
+    line-height: 160%;
+    text-transform: uppercase;
+  }
+
+  &Btn {
+    color: #f6f4ec;
+    font-size: 1.8rem;
+    line-height: 160%;
+  }
+}
+
+@media (max-width: 770px) {
+  .feel {
+
+    &Title {
+      font-size: 1.8rem;
+    }
+
+    &Btn {
+      font-size: 1.3rem;
+    }
+
+  }
+}
