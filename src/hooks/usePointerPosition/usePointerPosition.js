@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react'
+import { useEffect, useState } from 'react'
 
 const usePointerPosition = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 })
@@ -10,7 +10,7 @@ const usePointerPosition = () => {
     window.addEventListener('pointermove', handleMove)
     return () => window.removeEventListener('pointermove', handleMove)
   }, [])
-  
+
   return position
 }
 

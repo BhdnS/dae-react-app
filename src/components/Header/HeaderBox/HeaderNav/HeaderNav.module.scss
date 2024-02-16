@@ -1,5 +1,4 @@
 .box {
-
   &Nav {
     display: flex;
     gap: 22px;
@@ -36,7 +35,7 @@
     bottom: 0;
     max-width: 320px;
     width: 100%;
-    transition: .3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
 
     &Link {
       color: white;

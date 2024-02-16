@@ -1,9 +1,9 @@
-import {useReducer} from 'react'
-import {initialState, menuReducer} from '../state/menu/menuReducer.js'
+import { useReducer } from 'react'
 import ContextMenuToggle from '../state/menu/ContextMenuToggle.js'
+import { initialState, menuReducer } from '../state/menu/menuReducer.js'
 
 const Context = ({ children }) => {
-  const [ state, dispatch ] = useReducer(menuReducer, initialState)
+  const [state, dispatch] = useReducer(menuReducer, initialState)
   return (
     <>
       <ContextMenuToggle.Provider value={{ state, dispatch }}>

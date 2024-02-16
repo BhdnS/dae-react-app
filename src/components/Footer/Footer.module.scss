@@ -17,9 +17,7 @@
 }
 
 @media (max-width: 770px) {
-
   .footer {
-
     &Box {
       flex-direction: column-reverse;
       align-items: center;
@@ -29,5 +27,4 @@
       max-width: 50%;
     }
   }
-
 }

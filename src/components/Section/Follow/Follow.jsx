@@ -1,4 +1,4 @@
-import {SwiperSlide} from 'swiper/react'
+import { SwiperSlide } from 'swiper/react'
 import ButtonLink from '../../../UI/ButtonLink/ButtonLink.jsx'
 import CardFollow from '../../../UI/CardFollow/CardFollow.jsx'
 import Container from '../../../UI/Container/Container.jsx'

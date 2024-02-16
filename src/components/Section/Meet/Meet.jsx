@@ -1,6 +1,6 @@
 import ButtonLink from '../../../UI/ButtonLink/ButtonLink.jsx'
-import useScrollAnimation from '../../../hooks/useScrollAnimation/useScrollAnimation.js'
 import meet from '../../../assets/images/meet/meet.png'
+import useScrollAnimation from '../../../hooks/useScrollAnimation/useScrollAnimation.js'
 import styles from './Meet.module.scss'
 
 const Meet = () => {
