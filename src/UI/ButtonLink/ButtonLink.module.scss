@@ -3,7 +3,7 @@
 
   &:hover {
     transition: color 0.3s ease-in-out;
-    cursor: url('public/images/cursor/circle-hover.svg'), default;
+    cursor: url('/images/cursor/circle-hover.svg'), default;
     color: #b4111d;
   }
 }

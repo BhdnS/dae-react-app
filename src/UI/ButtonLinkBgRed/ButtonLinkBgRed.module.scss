@@ -8,7 +8,7 @@
   &:hover {
     transition: background-color, color 0.3s ease-in-out;
     background-color: #b4111d;
-    cursor: url('public/images/cursor/circle-hover.svg'), default;
+    cursor: url('/images/cursor/circle-hover.svg'), default;
     color: #f1d3b9;
   }
 }
