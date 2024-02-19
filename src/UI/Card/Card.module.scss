@@ -1,0 +1,37 @@
+.card {
+  padding-bottom: 17px;
+  max-width: 100%;
+  width: 100%;
+  min-height: 300px;
+
+  &:hover {
+    cursor: url('/images/cursor/circle-hover.svg'), default;
+  }
+
+  &Box {
+    padding-top: 10px;
+  }
+
+  &Img {
+    max-width: 380px;
+    width: 100%;
+  }
+
+  &Title {
+    color: #b45f4d;
+    font-size: 1.8rem;
+    line-height: 140%;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+  }
+
+  &Price {
+    color: #b45f4d;
+    font-size: 1.6rem;
+    line-height: 100%;
+  }
+
+  &Loader {
+    background-color: black;
+  }
+}

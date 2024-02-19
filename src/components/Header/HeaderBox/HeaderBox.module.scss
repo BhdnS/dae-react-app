@@ -1,0 +1,17 @@
+.box {
+  background: #f6f4ec;
+  box-shadow: 0 0 3px 0 #ddd;
+  padding: 8px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 770px) {
+  .flex {
+    flex-direction: row-reverse;
+  }
+}

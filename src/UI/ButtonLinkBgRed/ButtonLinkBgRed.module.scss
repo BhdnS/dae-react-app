@@ -1,0 +1,14 @@
+.buttonLink {
+  color: #fff;
+  font-size: 1.7rem;
+  padding: 10px 20px;
+  background-color: #b45f4d;
+  transition: background-color, color 0.3s ease-in-out;
+
+  &:hover {
+    transition: background-color, color 0.3s ease-in-out;
+    background-color: #b4111d;
+    cursor: url('/images/cursor/circle-hover.svg'), default;
+    color: #f1d3b9;
+  }
+}

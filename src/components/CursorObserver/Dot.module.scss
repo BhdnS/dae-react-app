@@ -1,0 +1,9 @@
+.dot {
+  display: block;
+}
+
+@media (max-width: 770px) {
+  .dot {
+    display: none;
+  }
+}

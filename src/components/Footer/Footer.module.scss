@@ -1,0 +1,30 @@
+.footer {
+  background-color: #f6f4ec;
+  padding: 62px 0 62px 0;
+
+  &Info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 25%;
+    width: 100%;
+  }
+
+  &Box {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 128px;
+  }
+}
+
+@media (max-width: 770px) {
+  .footer {
+    &Box {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+
+    &Info {
+      max-width: 50%;
+    }
+  }
+}
