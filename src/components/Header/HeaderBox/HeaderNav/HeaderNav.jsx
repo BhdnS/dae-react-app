@@ -28,7 +28,7 @@ const HeaderNav = () => {
           />
           {navData.map((v) => (
             <li key={v.id}>
-              <ButtonLink className={styles.boxLink} toLink={v.id}>
+              <ButtonLink className={styles.boxLink} toLink={`#${v.id}`}>
                 {v.title}
               </ButtonLink>
             </li>
