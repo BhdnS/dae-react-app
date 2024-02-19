@@ -18,7 +18,14 @@ const Follow = () => {
             Follow Us @daehair
           </ButtonLink>
         </h2>
-        <SwiperElement between={3} perView={6} perViewMobile={2}>
+        <SwiperElement
+          between={3}
+          perViewMobile={2}
+          breakpointTablet={900}
+          perView={6}
+          breakpointMobile={700}
+          perViewTablet={4}
+        >
           {followData.map((v) => (
             <SwiperSlide key={v.id}>
               <CardFollow

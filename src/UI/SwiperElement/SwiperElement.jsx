@@ -1,8 +1,16 @@
 import 'swiper/css/bundle'
-import {Autoplay} from 'swiper/modules'
-import {Swiper} from 'swiper/react'
+import { Autoplay } from 'swiper/modules'
+import { Swiper } from 'swiper/react'
 
-const SwiperElement = ({ children, perView, perViewMobile, between }) => {
+const SwiperElement = ({
+  children,
+  perView,
+  perViewTablet,
+  perViewMobile,
+  between,
+  breakpointTablet,
+  breakpointMobile,
+}) => {
   return (
     <Swiper
       modules={[Autoplay]}
@@ -13,7 +21,10 @@ const SwiperElement = ({ children, perView, perViewMobile, between }) => {
         delay: 3000,
       }}
       breakpoints={{
-        770: {
+        [breakpointMobile]: {
+          slidesPerView: perViewTablet,
+        },
+        [breakpointTablet]: {
           slidesPerView: perView,
         },
       }}

@@ -4,7 +4,7 @@
   justify-content: space-between;
   width: 25px;
   height: 25px;
-  transition: .3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 
   &Line {
     border-radius: 10%;
@@ -14,10 +14,9 @@
   }
 
   &Active {
-    transition: .3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
     transform: rotate(90deg);
   }
-
 }
 
 @media (min-width: 770px) {

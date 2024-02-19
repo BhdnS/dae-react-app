@@ -1,10 +1,10 @@
-import one from '../../../assets/images/follow/one.png'
-import two from '../../../assets/images/follow/two.png'
-import three from '../../../assets/images/follow/three.png'
-import four from '../../../assets/images/follow/four.png'
-import five from '../../../assets/images/follow/five.png'
-import six from '../../../assets/images/follow/six.png'
 import logo from '../../../assets/images/follow/dae-logo.png'
+import five from '../../../assets/images/follow/five.png'
+import four from '../../../assets/images/follow/four.png'
+import one from '../../../assets/images/follow/one.png'
+import six from '../../../assets/images/follow/six.png'
+import three from '../../../assets/images/follow/three.png'
+import two from '../../../assets/images/follow/two.png'
 
 const followData = [
   {

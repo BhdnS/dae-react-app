@@ -11,7 +11,14 @@ const PrettyBottle = () => {
       <Container>
         <div className={styles.prettyBottleBox}>
           <h2 className={styles.prettyBottleTitle}>Pick a Pretty Bottle</h2>
-          <SwiperElement perView={3} perViewMobile={1} between={150}>
+          <SwiperElement
+            perView={3}
+            perViewTablet={2}
+            perViewMobile={1}
+            between={150}
+            breakpointTablet={950}
+            breakpointMobile={700}
+          >
             {prettyBottleData.map((v) => (
               <SwiperSlide key={v.id}>
                 <Card
