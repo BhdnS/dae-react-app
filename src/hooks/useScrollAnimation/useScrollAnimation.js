@@ -9,15 +9,17 @@ const useScrollAnimation = (config) => {
   const ref = useRef()
 
   useGSAP(() => {
-    gsap.from(ref.current, {
-      ...config.animation,
-      scrollTrigger: {
-        trigger: ref.current,
-        start: 'top 80%',
-        end: '+=200',
-        scrub: 5,
-      },
-    })
+    if (window.innerWidth >= 1000) {
+      gsap.from(ref.current, {
+        ...config.animation,
+        scrollTrigger: {
+          trigger: ref.current,
+          start: 'top 80%',
+          end: '+=200',
+          scrub: 5,
+        },
+      })
+    }
   })
 
   return ref
