@@ -1,6 +1,7 @@
+import { memo } from 'react'
 import styles from './Card.module.scss'
 
-const Card = ({ image, imageAlt, title, price }) => {
+const Card = memo(({ image, imageAlt, title, price }) => {
   return (
     <a href={'#'} className={styles.card}>
       <img
@@ -16,6 +17,6 @@ const Card = ({ image, imageAlt, title, price }) => {
       </div>
     </a>
   )
-}
+})
 
 export default Card

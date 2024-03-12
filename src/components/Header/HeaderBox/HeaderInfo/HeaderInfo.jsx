@@ -6,7 +6,7 @@ const HeaderInfo = () => {
 
   return (
     <div className={styles.info}>
-      <h3 className={styles.infoText}>Account</h3>
+      <div className={styles.infoText}>Account</div>
       <div className={styles.infoBoxIcon}>
         <svg
           xmlns='http://www.w3.org/2000/svg'

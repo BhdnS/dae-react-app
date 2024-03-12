@@ -4,7 +4,7 @@ import styles from './Ready.module.scss'
 
 const Ready = () => {
   return (
-    <div className={styles.ready}>
+    <section className={styles.ready}>
       <Container>
         <h2 className={styles.readyTitle}>Ready To Get Drenched?</h2>
         <h3 className={styles.readySubTitle}>Meet Monsoon Moisture Mask</h3>
@@ -12,7 +12,7 @@ const Ready = () => {
           Shop Now
         </ButtonLink>
       </Container>
-    </div>
+    </section>
   )
 }
 

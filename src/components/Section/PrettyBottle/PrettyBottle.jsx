@@ -7,7 +7,7 @@ import prettyBottleData from './prettyBottleData.js'
 
 const PrettyBottle = () => {
   return (
-    <div className={styles.prettyBottle} id='2'>
+    <section className={styles.prettyBottle} id='2'>
       <Container>
         <div className={styles.prettyBottleBox}>
           <h2 className={styles.prettyBottleTitle}>Pick a Pretty Bottle</h2>
@@ -32,7 +32,7 @@ const PrettyBottle = () => {
           </SwiperElement>
         </div>
       </Container>
-    </div>
+    </section>
   )
 }
 

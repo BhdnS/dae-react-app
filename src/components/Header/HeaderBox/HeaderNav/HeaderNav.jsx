@@ -12,11 +12,13 @@ const HeaderNav = () => {
 
   const handleViewMenu = useCallback(() => {
     dispatch({ type: 'TOGGLE_MENU' })
+    document.querySelector('body').style.overflow = 'hidden'
   }, [dispatch])
 
-  const handleCloseMenu = () => {
+  const handleCloseMenu = useCallback(() => {
     dispatch({ type: 'CLOSE_MENU' })
-  }
+    document.querySelector('body').style.overflow = ''
+  }, [dispatch])
 
   return (
     <>
@@ -27,7 +29,7 @@ const HeaderNav = () => {
             handleClose={handleCloseMenu}
           />
           {navData.map((v) => (
-            <li key={v.id}>
+            <li key={v.id} onClick={handleCloseMenu}>
               <ButtonLink className={styles.boxLink} toLink={`#${v.id}`}>
                 {v.title}
               </ButtonLink>

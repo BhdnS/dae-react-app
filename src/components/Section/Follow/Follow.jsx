@@ -8,7 +8,7 @@ import followData from './followData.js'
 
 const Follow = () => {
   return (
-    <div id='3' className={styles.follow}>
+    <section className={styles.follow}>
       <Container>
         <h2>
           <ButtonLink
@@ -38,7 +38,7 @@ const Follow = () => {
           ))}
         </SwiperElement>
       </Container>
-    </div>
+    </section>
   )
 }
 

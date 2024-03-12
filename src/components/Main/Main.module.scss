@@ -1,5 +1,10 @@
 .main {
   position: relative;
+  background-image: url('../../assets/images/main/main.png');
+  background-size: cover;
+  background-position: center;
+  height: 435px;
+
   &Img {
     max-width: 100%;
     width: 100%;

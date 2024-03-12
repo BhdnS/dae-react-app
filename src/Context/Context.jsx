@@ -5,11 +5,9 @@ import { initialState, menuReducer } from '../state/menu/menuReducer.js'
 const Context = ({ children }) => {
   const [state, dispatch] = useReducer(menuReducer, initialState)
   return (
-    <>
-      <ContextMenuToggle.Provider value={{ state, dispatch }}>
-        {children}
-      </ContextMenuToggle.Provider>
-    </>
+    <ContextMenuToggle.Provider value={{ state, dispatch }}>
+      {children}
+    </ContextMenuToggle.Provider>
   )
 }
 

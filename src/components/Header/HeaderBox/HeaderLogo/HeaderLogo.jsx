@@ -4,11 +4,11 @@ import styles from './HeaderLogo.module.scss'
 
 const HeaderLogo = () => {
   return (
-    <>
+    <h1>
       <ButtonLink toLink={'#'}>
         <img className={styles.logo} src={logo} alt='dae' />
       </ButtonLink>
-    </>
+    </h1>
   )
 }
 

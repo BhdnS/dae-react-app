@@ -4,6 +4,7 @@
 
   &Info {
     display: flex;
+    gap: 10px;
     justify-content: space-between;
     max-width: 25%;
     width: 100%;
@@ -25,6 +26,7 @@
 
     &Info {
       max-width: 50%;
+      justify-content: center;
     }
   }
 }

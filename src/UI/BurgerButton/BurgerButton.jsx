@@ -1,6 +1,7 @@
+import { memo } from 'react'
 import styles from './BurgerButton.module.scss'
 
-const BurgerButton = ({ onClick, viewMenu }) => {
+const BurgerButton = memo(({ onClick, viewMenu }) => {
   const view = viewMenu
     ? `${styles.burger} ${styles.burgerActive}`
     : `${styles.burger}`
@@ -12,6 +13,6 @@ const BurgerButton = ({ onClick, viewMenu }) => {
       <span className={styles.burgerLine}></span>
     </div>
   )
-}
+})
 
 export default BurgerButton

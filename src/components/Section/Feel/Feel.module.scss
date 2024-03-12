@@ -2,21 +2,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 24px 0 50px 0;
-
-  &Img {
-    max-width: 1220px;
-    width: 100%;
-  }
+  margin: 24px 0 50px 0;
+  background-image: url('../../../assets/images/feel/feel.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 414px;
+  position: relative;
 
   &Box {
     background-color: #df9b7a;
     display: flex;
     justify-content: space-between;
+    gap: 10px;
     align-items: center;
-    max-width: 1220px;
+    max-width: 1219px;
     width: 100%;
     padding: 30px;
+    position: absolute;
+    bottom: 0;
   }
 
   &Title {
@@ -36,11 +39,12 @@
 @media (max-width: 770px) {
   .feel {
     &Title {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
     }
 
     &Btn {
       font-size: 1.3rem;
+      white-space: nowrap;
     }
   }
 }

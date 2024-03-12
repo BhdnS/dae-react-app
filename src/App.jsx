@@ -15,9 +15,9 @@ const App = () => {
           <Main />
           <Section />
           <Footer />
-          <CursorObserver />
         </Layout>
       </Context>
+      <CursorObserver />
     </>
   )
 }

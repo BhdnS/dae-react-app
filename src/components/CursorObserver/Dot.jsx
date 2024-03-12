@@ -8,8 +8,9 @@ const Dot = ({ position, delay, opacity }) => {
     <div className={styles.dot}>
       <div
         style={{
-          position: 'absolute',
+          position: 'fixed',
           backgroundColor: 'pink',
+          zIndex: 1000,
           borderRadius: '50%',
           transform: `translate(${coordinate.x}px, ${coordinate.y}px)`,
           opacity,

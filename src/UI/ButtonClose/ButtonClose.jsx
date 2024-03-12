@@ -1,6 +1,7 @@
+import { memo } from 'react'
 import styles from './ButtonClose.module.scss'
 
-const ButtonClose = ({ handleClose, className }) => {
+const ButtonClose = memo(({ handleClose, className }) => {
   const styleBtn = `${styles.close} ${className}`
 
   return (
@@ -9,6 +10,6 @@ const ButtonClose = ({ handleClose, className }) => {
       <div className={styles.closeLine}></div>
     </div>
   )
-}
+})
 
 export default ButtonClose

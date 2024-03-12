@@ -1,6 +1,7 @@
+import { memo } from 'react'
 import styles from './CardFollow.module.scss'
 
-const CardFollow = ({ img, imgAlt, logo, logoAlt }) => {
+const CardFollow = memo(({ img, imgAlt, logo, logoAlt }) => {
   return (
     <div className={styles.cardFollow}>
       <img
@@ -18,6 +19,6 @@ const CardFollow = ({ img, imgAlt, logo, logoAlt }) => {
       <div className='swiper-lazy-preloader swiper-lazy-preloader-black'></div>
     </div>
   )
-}
+})
 
 export default CardFollow
